@@ -8,7 +8,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     exit;
 }
 
-require("../Controller/user_controller.php");
+require_once("../Controller/user_controller.php");
 
 if(isset($_POST['login'])){
     $email = $_POST['email'];
