@@ -1,6 +1,6 @@
 <?php
 set_include_path(dirname(__FILE__)."/../");
-require_once("Settings/db_class.php");
+require_once("../Settings/db_class.php");
 
 /**
  * 
