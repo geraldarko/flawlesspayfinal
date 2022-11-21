@@ -1,7 +1,7 @@
 <?php 
 //include controller
 set_include_path(dirname(__FILE__)."/../");
-require 'Classes/user_class.php';
+require '../Classes/user_class.php';
 
 
 //ADD NEW USER
